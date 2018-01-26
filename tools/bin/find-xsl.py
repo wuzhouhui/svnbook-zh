@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 import sys
 import os
@@ -24,6 +24,8 @@ candidate_xsldirs = (
     '/sw/share/xml/xsl/docbook-xsl',
     # Mac OS X + MacPorts
     '/opt/local/share/xsl/docbook-xsl',
+    # Archlinux
+    '/usr/share/xml/docbook/xsl-stylesheets-*',
     # Please add your OS's location here if not listed!
     )
 #######################################################
