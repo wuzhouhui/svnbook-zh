@@ -2625,7 +2625,7 @@ $
         local <quote>modifications</quote>, committing them, or
         continuing to modify your working copy.</para>
       -->
-      <para>现在, 接下来你的选择有: 撤消全部或部分的本地 <quote>修改</quote>,
+      <para>现在, 你的选择有: 撤消全部或部分的本地 <quote>修改</quote>,
         提交这些修改, 或继续修改你的工作副本. </para>
 
       <!--
@@ -8940,7 +8940,7 @@ Updated to revision 31.
       -->
         <para>用户 <emphasis>可以</emphasis> 只切换工作副本的一部分到一个
           新的分支, 但这不是推荐的做法. 因为很容易忘记工作副本只是部分切换
-          的, 然后用户意外地同时修改并提交到已切换到未切换的目录树中.</para>
+          的, 然后用户意外地同时修改并提交到已切换和未切换的目录树中.</para>
       </tip>
 
     </refsect1>
@@ -9438,7 +9438,7 @@ $
         an error:</para>
       -->
       <para>如果你试图在一个版本较旧的工作副本中使用 Subversion 1.7, Subversion
-        将会报告:</para>
+        将会报错:</para>
 
       <informalexample>
         <screen>

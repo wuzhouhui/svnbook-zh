@@ -1588,7 +1588,7 @@ Rework the uppermost branches on the bald cypress in the foreground.
       <para>List all outstanding transactions in a
         repository:</para>
       -->
-      <para>所有仓库中所有未完成的事务:</para>
+      <para>列出仓库中所有未完成的事务:</para>
 
       <informalexample>
         <screen>
@@ -1967,7 +1967,7 @@ $ svnadmin rmtxns /var/svn/repos/  `svnadmin lstxns /var/svn/repos/`
       <!--
       <refpurpose>Set the log message on a revision.</refpurpose>
       -->
-      <refpurpose>设备版本号的日志消息.</refpurpose>
+      <refpurpose>设置版本号的日志消息.</refpurpose>
     </refnamediv>
 
     <refsynopsisdiv>
