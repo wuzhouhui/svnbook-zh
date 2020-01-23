@@ -102,7 +102,7 @@
       一个通用的 WebDAV 客户端 (后面会谈到细节), 还有很多流行的独立应用程序
       都支持 WebDAV&mdash;Microsoft Office, Dreamweaver, 和 Photoshop.
       在服务器端, Apache HTTP 服务器从 1998 年起就开始提供 WebDAV 服务, 除
-      了开源软件, 还有商业 WebDAV 服务器可供使用, 例如 Microsoft 的 II.</para>
+      了开源软件, 还有商业 WebDAV 服务器可供使用, 例如 Microsoft 的 IIS.</para>
 
       <!--
     <para>DeltaV, unfortunately, has not been so successful.  It's
