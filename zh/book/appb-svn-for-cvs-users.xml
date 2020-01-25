@@ -184,7 +184,6 @@
       事, 因为我们希望工作副本能够支持混合的版本号, 这就使得我们在对目录
       进行版本控制时有些限制需要遵循.</para>
 
-    <!-- ### TODO -->
       <!--
     <para>From a theoretical point of view, we define <quote>revision
       5 of directory <filename>foo</filename></quote> to mean a
@@ -194,18 +193,19 @@
       to say that we still have revision 5 of
       <filename>foo</filename>.  However, if we bumped
       <filename>foo</filename>'s revision number after the commit,
+      ### TODO
       that would be a lie too; there may be other changes to
       <filename>foo</filename> we haven't yet received, because we
       haven't updated yet.</para>
       -->
-    <para>从理论上讲, 我们把 <quote>在版本号为 5 时, 目录
-        <filename>foo</filename></quote> 定义成目录项和属性的特定集合. 现在
-      假设我们从目录 <filename>foo</filename> 里添加并删除了一些文件, 然后
-      提交, 这时候如果我们再说 <quote>版本号为 5 时, 目录
-        <filename>foo</filename></quote> 是不对的. 然而, 如果把目录
-      <filename>foo</filename> 的版本号更新到最新版, 这时候再说 <quote>版本号
-        为 5 时, 目录 <filename>foo</filename></quote> 仍然是不对的, 因为
-      目录中可能还有其他一些文件的更新没有收到.</para>
+    <para>从理论上讲, 我们把 <quote>目录 <filename>foo</filename> 的版本号
+        5</quote> 的涵义定义成目录项和属性的特定集合. 现在假设我们从目录
+      <filename>foo</filename> 里添加并删除了一些文件, 然后提交, 这时候
+      如果再说 <quote>我们仍然拥有目录 <filename>foo</filename>
+        的版本号 5</quote> 是不对的. 再者, 如果我们在提交后更新了目录
+      <filename>foo</filename> 的版本号, 这时候再说 <quote>我们
+        仍然拥有目录 <filename>foo</filename> 的版本号 5</quote> 还是不对,
+        因为目录中可能还有其他一些文件的更新还没有收到.</para>
     
       <!--
     <para>Subversion deals with this problem by quietly tracking
@@ -872,7 +872,6 @@ Status against revision:   1066
     <para>Perhaps the most important way to familiarize CVS users with
       Subversion is to let them continue to work on their projects
       using the new system.  And while that can be somewhat
-      ### TODO
       accomplished using a flat import into a Subversion repository of
       an exported CVS repository, the more thorough solution involves
       transferring not just the latest snapshot of their data, but all

@@ -5631,7 +5631,6 @@ $
       empty-depth checkout of the common parent directory of the
       projects, and then update with infinite depth only the items you
       wish to have, like we demonstrated in the previous example.
-      TODO
       Think of it like an opt-in system for working copy
       citizens.</para>
     -->

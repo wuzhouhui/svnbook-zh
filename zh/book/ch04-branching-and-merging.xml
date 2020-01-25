@@ -3297,7 +3297,6 @@ $ svn merge ^/calc/branches/some-branch
         目录还没有的修改. 如果用户在一周后再执行相同的命令, 命令就只会复制在
         上一次合并后新出现的修改.</para>
 
-      <!-- TODO -->
       <!--
       <para>If you choose to use the <command>svn merge</command>
         command in all its full glory by giving it specific revision
