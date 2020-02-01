@@ -892,7 +892,6 @@ $
         displaying in their entirety the contents of the new file
         and merely using a different label to draw the copy/add
         distinction.  However, you can use the
-        ### TODO
         <option>- -diff-copy-from</option> option to cause
         <command>svnlook diff</command> to consider a copied
         file as worthy of mention only if it differs from the file
@@ -902,7 +901,7 @@ $
       <para>默认情况下, <command>svnlook diff</command> 把复制后的文件当成
         新增的文件对待, 仅仅使用不同的标签来区分复制与新增的区别. 然而,
         选项 <option>--diff-copy-from</option> 使得 <command>svnlook
-          diff</command> 输出复制后的文件与源文件之间的差异:</para>
+          diff</command> 只会输出复制后的文件与源文件之间的差异:</para>
 
       <informalexample>
         <screen>

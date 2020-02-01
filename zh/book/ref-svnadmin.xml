@@ -2444,7 +2444,6 @@ Upgrade completed.
         revisions in the repository by internally dumping all
         revisions and discarding the output&mdash;it's a good idea
         to run this on a regular basis to guard against latent
-                                ### TODO
         hard disk failures and <quote>bitrot.</quote>  If this
         command fails&mdash;which it will do at the first sign of
         a problem&mdash;that means your repository has at
@@ -2453,8 +2452,8 @@ Upgrade completed.
         didn't you?).</para>
       -->
       <para>命令的目标是验证仓库的完整性. 基本上讲, 命令做的工作就是转储
-        所有的版本号, 并丢弃输出&mdash;为了检测潜在的硬盘错误和
-        bitrot, 最好定期执行 <command>svnadmin verify</command>. 如果命令
+        所有的版本号, 并丢弃输出&mdash;为了检测潜在的硬盘错误和位衰减
+        (bitrot), 最好定期执行 <command>svnadmin verify</command>. 如果命令
         报错, 说明仓库内至少含有一个出错的版本号, 这时候管理员应该从备份
         恢复出错的版本号 (你备份过, 对吧?).</para>
 

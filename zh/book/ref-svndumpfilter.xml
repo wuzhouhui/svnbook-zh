@@ -64,7 +64,6 @@
         <listitem>
       <!--
           <para>Treat the path prefixes provided to the filtering
-                          ### TODO
             commands as file glob patterns rather than explicit path
             substrings.</para>
       -->
