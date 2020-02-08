@@ -279,7 +279,6 @@ $
         <term><option>--allow-mixed-revisions</option></term>
         <listitem>
       <!--
-          ### TODO
           <para>Disables the verification&mdash;performed by default
             by <command>svn merge</command> as of Subversion
             1.7&mdash;that the target of a merge operation and all
@@ -289,10 +288,10 @@ $
             to permit merges into mixed-revision working copies as
             necessary.</para>
       -->
-          <para>在合并时, 不去核实目标及其子文件的版本号是否是相同的, 从
+          <para>在合并时, 禁止去核实目标及其子文件的版本号是否是相同的. 从
             Subversion 1.7 开始, 默认都会去核实版本号是否相同. 虽然推荐的
-            做法是让工作副本处于一个单一的版本号下, 但必要时还是可以用这个
-            选项允许向版本号混合的工作副本执行合并.</para>
+            做法是让待合并的工作副本处于一个相同的版本号下, 但必要时还是可以
+            用这个选项允许向版本号混合的工作副本执行合并.</para>
         </listitem>
       </varlistentry>
 
@@ -1582,14 +1581,13 @@ $ svn log -r 1729:{2002-02-17}
             the operation from <replaceable>FILENAME</replaceable>.
             <replaceable>FILENAME</replaceable> should contain one
             path per line, with each path expected to use the same
-            ### TODO
             encoding and formatting that it would if you had
             specified it directly as an argument on the command
             line.</para>
       -->
           <para>告诉子命令从文件 <filename>FILENAME</filename> 读取额外的目标
             路径参数. <filename>FILENAME</filename> 的每一行都是一个路径, 路径
-            的编码和格式应该和命令行上的路径参数相同.</para>
+            的编码和格式应该和把它们直接写在命令行上时相同.</para>
         </listitem>
       </varlistentry>
       
@@ -2630,7 +2628,6 @@ $
 
       <!--
       <para>This feature is especially useful for performing
-        ### TODO
         in-place imports of unversioned directory trees.  By first
         importing the tree into the repository, and then checking
         out new repository location atop the unversioned tree with
@@ -2718,7 +2715,6 @@ $
         到一个可用的状态.</para>
 
       <!--
-      ### TODO
       <para>If, for some reason, an <command>svn update</command>
         fails due to a problem running an external diff program
         (e.g., user input or network failure), pass the
@@ -2735,7 +2731,7 @@ $
         会使用外部差异比较工具继续完成未完成的合并. 用户还可以用选项
         <option>--config-dir</option> 为 <command>svn cleanup</command> 指定
         任意的配置文件目录, 不过选项 <option>--config-dir</option> 和
-        <option>--diff3-cmd</option> 的使用频率应该会很低.</para>
+        <option>--diff3-cmd</option> 的使用频率应该会非常低.</para>
 
     </refsect1>
 
@@ -5738,14 +5734,14 @@ $
         that you have an up-to-date working copy of the trunk (the
         <option>- -verbose</option> option prints additional
         information regarding what the merge is doing prior to
-                                    ### TODO
         actually applying any diff; useful in very large which
         might take a significant amount of time to complete):</para>
       -->
       <para>把分支重新整合到主干上&mdash;假设你已经有了一个处于最新状态
         下的主干工作副本 (选项 <option>--verbose</option> 使得 <command>svn
           merge</command> 在应用差异前打印额外的信息, 这些信息指出了现在
-        正在执行什么合并):</para>
+        正在执行什么合并. 如果命令的运行时间比较长, 那么打印一些信息就会
+        很有帮助):</para>
 
       <informalexample>
         <screen>
@@ -6296,7 +6292,6 @@ Committed revision 27.
         exact line offset, it may be applied earlier or later in
         the file if a match is found elsewhere for the surrounding
         lines of context provided by the patch.  A change may also
-                                   ### TODO
         be applied with <firstterm>fuzz</firstterm>&mdash;meaning,
         one or more lines of context are ignored when attempting
         to match the change location.  If no matching context can
@@ -8115,7 +8110,7 @@ $ svn status
       <para>打印工作副本中文件或目录的状态. 如果没有指定任何选项, <command>svn
           status</command> 将只打印本地已修改的项目 (不会访问仓库). 如果添加了
         <option>--show-updates</option> (<option>-u</option>), 命令除了会打印
-        工作副本内的版本号外, 还会打印服务器上的信息. 如果添加了选项
+        工作副本内的版本号外, 还会打印服务器上最新的信息. 如果添加了选项
         <option>--verbose</option> (<option>-v</option>), 它将打印每一项的
         完整的版本号信息. 如果添加了选项 <option>--quiet</option>
         (<option>-q</option>), 它就只打印与本地已修改项目有关的总结信息.</para>

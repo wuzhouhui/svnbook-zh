@@ -431,7 +431,6 @@
               URL to which all other URL targets are relative.  This
               URL need not be the repository's root URL (such
               as might be reported by <command>svn info</command>).
-              ### TODO
               It can be any URL common to the various targets which
               are specified in the <command>svnmucc</command>
               actions.</para>
@@ -442,7 +441,7 @@
               <replaceable>ROOT-URL</replaceable> 并不一定就是仓库的根 URL
               (例如由 <command>svn info</command> 输出的仓库根 URL), 它可以
               是任意的 URL, 只要它是 <command>svnmucc</command> 命令行上所
-              指定的 URL 目标的公共部分即可.</para>
+              指定的 URL 目标的公共前缀部分即可.</para>
           </listitem>
         </varlistentry>
 

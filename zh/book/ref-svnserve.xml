@@ -384,7 +384,6 @@
               <filename>stdin</filename>/<filename>stdout</filename>, and then exit), except that the connection
               is considered to be preauthenticated with the username
               of the current UID.  This flag is automatically passed
-              ### TODO
               for you by the client when running over a tunnel agent
               such as <command>ssh</command>.  That means there's
               rarely any need for <emphasis>you</emphasis> to pass
