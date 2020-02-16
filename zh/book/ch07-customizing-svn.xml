@@ -1434,7 +1434,6 @@ collabnet = svn.collab.net
       <!--
               <para>The value of this option is the name of the
                 PKCS#11 provider from which an SSL client certificate
-                ### TODO
                 will be drawn (if the server asks for one).  This
                 setting is only honored by Subversion's Neon-based
                 HTTP provider module, which was removed in Subversion

@@ -6183,7 +6183,7 @@ A    newdirectory/newfile
       necessitating regeneration of those changes with each successive
       version of the third-party code that you track.</para>
       -->
-    <para>现在你面临一种非常有趣的情况. 你的项目可以使用几种分离的方式存放
+    <para>现在你面临一种非常有趣的情况. 你的项目可以使用几种互不相交的方式存放
       第三方数据的定制化修改, 比如说使用补丁文件, 或文件和目录的成熟的替代
       版本. 但是维护人员很快就会感到头疼,
       因此迫切需要一种机制, 能够方便地把你的定制化修改应用到第三方代码上, 并
@@ -7043,7 +7043,6 @@ $
       code lines.  Now, these drawbacks might be less of an issue for
       true exploratory branches aimed at experimenting with the future
       of a codebase with no expectation of reintegrating the results
-      TODO
       back into the main development lines&mdash;mere policy needn't
       be a vision-killer!  But the simple fact remains that projects
       generally benefit from an orderly approach to version control
@@ -7057,7 +7056,7 @@ $
       在长期存在的分支上工作的开发人员有时候需要付出额外的努力, 以确保分支的
       演化方向与同事的保持一致. 对于有些分支而言, 这些缺点都不算是问题, 因为
       它们只是试探性的分支, 仅仅是在尝试代码库未来的发展方向, 将来不会被整合
-      到主线上. 但是有一个简单的
+      到主线上&mdash;单纯的规范不一定会扼杀远见. 但是有一个简单的
       事实不容忽视, 那就是代码及其修改如果能得到更多人的审查与理解, 那么对项目
       而言通常是有好处的.</para>
 

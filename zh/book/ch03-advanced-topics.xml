@@ -5640,7 +5640,7 @@ $
         </filename>, <filename>trunk/project2</filename>, <filename>
         trunk/project3</filename> 等), 但是用户可能只关心其中的部分模块&mdash;
       比如说项目的主要模块及其依赖模块. 用户可以分别检出他所关心的各个模块的
-      工作副本, 但是这些工作副本之间是分离的, 如果想同时对它们执行同一个操作
+      工作副本, 但是这些工作副本之间是互不相交的, 如果想同时对它们执行同一个操作
       就会很麻烦, 必须多次切换目录. 另一种选择是利用稀疏目录特性, 检出一个只
       包含了感兴趣的模块的工作副本. 首先为模块的公共父目录检出一个深度为
       <literal>empty</literal> 的工作副本, 然后按照深度 <literal>infinity
@@ -7628,7 +7628,7 @@ $
     -->
     <para>或许最令人失望的是由外部定义创建的工作副本与主工作副本 (属性 <literal>
         svn:externals</literal> 所在的工作副本) 之间是分离的, 而且 Subversion
-      也只能操作不相交的工作副本. 也就是说如果你想要提交一个或多个外部工作副本
+      也只能操作非正交的工作副本. 也就是说如果你想要提交一个或多个外部工作副本
       里的修改, 你只能显式地在每个外部工作副本里执行 <command>svn commit
     </command>&mdash;在主工作副本内提交并不会影响外部工作副本.</para>
 
@@ -7701,17 +7701,18 @@ $
         <primary>working copies (工作副本)</primary>
         <secondary>disjoint (不相交的)</secondary>
         </indexterm>
+        除了
         <command>svn checkout</command>, <command>svn update</command>,
-        <command>svn switch</command> 和 <command>svn export</command> 这些
-        命令实际上管理的是 <firstterm>不相交的</firstterm>
-        (<firstterm>disjoint</firstterm>), 检出了外部定义的子目录, 但
-        <command>svn status</command> 可以识别外部工作副本.
+        <command>svn switch</command> 和 <command>svn export</command> 外
+        (这些子命令实际上管理了 <firstterm>互不相交的</firstterm>
+        (<firstterm>disjoint</firstterm>) (或者说互相分离的), 检出了外部
+        定义的子目录),
+        <command>svn status</command> 也可以识别外部工作副本.
         <command>svn status</command> 为外部
         工作副本所在的子目录显示字符 <literal>X</literal>, 然后递归地显示外部
         工作副本内的各个项目的状态. 为子命令添加选项
         <option>--ignore-externals</option> 将会禁止子命令处理外部定义.</para>
     <!--
-      ### TODO
         Besides the <command>svn checkout</command>, <command>svn
       update</command>, <command>svn switch</command>, and
       <command>svn export</command> commands which actually manage the

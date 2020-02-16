@@ -269,7 +269,6 @@ conf/  db/  format  hooks/  locks/  README.txt
       <!--
       <para>In the years since, the
         newer <firstterm>FSFS</firstterm><footnote><para>While it is
-            ### TODO
         often pronounced <quote>fuzz-fuzz,</quote> per Jack
         Repenning's rendition, this book assumes that the reader is
         thinking <quote>eff-ess-eff-ess.</quote></para></footnote>
@@ -3228,7 +3227,6 @@ $
       <para>Since Subversion stores your versioned history using, at
         the very least, binary differencing algorithms and data
         compression (optionally in a completely opaque database
-        ### TODO
         system), attempting manual tweaks is unwise if not quite
         difficult, and at any rate strongly discouraged.  And once
         data has been stored in your repository, Subversion generally
@@ -3239,7 +3237,6 @@ $
         your repository.  You might need to strip out all instances of
         a file that was accidentally added to the repository (and
         shouldn't be there for whatever
-        ### TODO
         reason).<footnote><para>Conscious, cautious removal of certain
         bits of versioned data is actually supported by real use
         cases.  That's why an <quote>obliterate</quote> feature has
@@ -3253,13 +3250,13 @@ $
         Subversion repository dump format.</para>
       -->
       <para>因为 Subversion 在存储版本历史时, 大量地使用了二进制差异算法和
-        数据压缩 (在完全不透明的数据库系统中是可选的), 如果管理员觉得不是很
+        数据压缩 (在完全封闭的数据库系统中是可选的), 如果管理员觉得不是很
         困难而手工地修改历史, 这是非常不明智的做法, 大家应该极力避免这样操作.
         数据一旦存储到仓库中, Subversion 通常不会允许管理员轻易地删除数据.
         <footnote><para>这不正是你使用版本控制系统的原因吗?</para></footnote>
         但总会出现需要修改仓库历史的情况, 例如从历史中抹去与某个文件相关的所
         有记录, 这个文件出现在历史中只是个意外 (或者因为其他一些原因).
-        <footnote><para>从版本化的数据中删除某些数据实际上是允许的,
+        <footnote><para>小心谨慎地从版本化的数据中删除某些数据实际上是允许的,
             <quote>清除</quote> 特性是 Subversion 必须提供的功能之一, 也是
             Subversion 开发人员想尽快实现的功能之一.</para></footnote> 又或者
         是多个项目本来共享同一个仓库, 现在你想把它们分别存放到自己独享的一个
@@ -4321,7 +4318,6 @@ $
             will not attempt to mirror any of those properties when they
             are found in the source repository.  The reason is probably
             obvious, but basically boils down to
-            ### TODO
             <command>svnsync</command> not being able to distinguish the
             special properties it has merely copied from the source
             repository from those it needs to consult and maintain for
@@ -4334,8 +4330,9 @@ $
           <para>关于这些记账属性的另一件有趣的事情是: 如果
             <command>svnsync</command> 在源仓库也发现了这些记账用的属性,
             那么 <command>svnsync</command> 不会对这些属性进行镜像操作.
-            原因是显然的, 但归结到 <command>svnsync</command> 身上, 其实是因
-            为它无法区分从从源仓库复制来的记账属性和自己用来记账的属性.
+            原因是显然的, 归结到底, 其实是因为 <command>svnsync</command>
+            无法区分从从源仓库复制来的属性, 和为了满足自己记账的需要而
+            维护的属性.
             如果用户在维护一个仓库的镜像的镜像, 就会出现这种情况, 当
             <command>svnsync</command> 在源仓库版本号 0 上看到它自己的记账
             属性时, 就会直接忽略它们.</para>

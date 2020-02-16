@@ -6834,7 +6834,6 @@ svnsync copy-revprops http://slave3.example.com/svn-proxy-sync \
       <!--
               <para>Specifies the name of a Subversion repository for
                 use in <literal>HTTP GET</literal> responses.  This
-                ### TODO
                 value will be prepended to the title of all directory
                 listings (which are served when you navigate to a
                 Subversion repository with a web browser).  This
