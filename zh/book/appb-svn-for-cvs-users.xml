@@ -193,7 +193,6 @@
       to say that we still have revision 5 of
       <filename>foo</filename>.  However, if we bumped
       <filename>foo</filename>'s revision number after the commit,
-      ### TODO
       that would be a lie too; there may be other changes to
       <filename>foo</filename> we haven't yet received, because we
       haven't updated yet.</para>
@@ -202,8 +201,8 @@
         5</quote> 的涵义定义成目录项和属性的特定集合. 现在假设我们从目录
       <filename>foo</filename> 里添加并删除了一些文件, 然后提交, 这时候
       如果再说 <quote>我们仍然拥有目录 <filename>foo</filename>
-        的版本号 5</quote> 是不对的. 再者, 如果我们在提交后更新了目录
-      <filename>foo</filename> 的版本号, 这时候再说 <quote>我们
+        的版本号 5</quote> 是不对的. 再者, 如果我们在提交后更新了目录 (仅
+      目录) <filename>foo</filename> 的版本号, 这时候再说 <quote>我们
         仍然拥有目录 <filename>foo</filename> 的版本号 5</quote> 还是不对,
         因为目录中可能还有其他一些文件的更新还没有收到.</para>
     

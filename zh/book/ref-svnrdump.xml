@@ -94,14 +94,15 @@
         <term><option>--incremental</option></term>
         <listitem>
       <!--
-           ### TODO
           <para>Dump a revision or revision range only as a diff
             against the previous revision, instead of the default,
             which is begin a dumped revision range with a complete
             expansion of all contents of the repository as of that
             revision.</para>
       -->
-          <para>按照增量格式转储版本号.</para>
+          <para>在转储版本号或版本号范围时, 对范围中的第一个版本号按照增量
+            格式进行转储, 而不是默认行为&mdash;转储第一个版本号的完整内容.
+          </para>
         </listitem>
       </varlistentry>
 

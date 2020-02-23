@@ -1791,7 +1791,6 @@ $ svn log -r 1729:{2002-02-17}
       <title>描述</title>
       
       <!--
-      ### TODO
       <para>Schedule files, directories, or symbolic links in your
         working copy for addition to the repository.  They will be
         uploaded and added to the repository on your next commit.

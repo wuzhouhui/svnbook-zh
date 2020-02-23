@@ -2973,7 +2973,6 @@ $ svnadmin dump myrepos -r 100:200 &gt; revs-100-200.dumpfile
           repository, <command>svnadmin</command> will compare the first
           dumped revision against the previous revision in the
           repository&mdash;the same way it treats every other revision that
-          ### TODO
           gets dumped.  It will then output the first revision exactly
           as it does the rest of the revisions in the dump
           range&mdash;mentioning only the changes that occurred in that
@@ -2983,7 +2982,7 @@ $ svnadmin dump myrepos -r 100:200 &gt; revs-100-200.dumpfile
       -->
         <para>然而, 管理员可以修改这种默认行为. 如果在转储时添加了选项
           <option>--incremental</option>, <command>svnadmin</command> 会把
-          转储的第一个版本号与前一个版本号作比较&mdash;就像对待其他被转储的
+          转储的第一个版本号与前一个版本号作比较, 跟转储范围中剩下的其他
           版本号那样, 只输出在版本号中被修改了的内容. 这样做的好处是管理员
           可以创建出几个较小的转储文件&mdash;而不是一整个大文件&mdash;它们被
           加载时可以连续进行, 就像下面这样:</para>
