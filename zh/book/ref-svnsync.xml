@@ -17,7 +17,6 @@
 
       <!--
     <para>In any mirroring scenario, there are two repositories: the
-                                            ### TODO
       source repository, and the mirror (or <quote>sink</quote>)
       repository.  The source repository is the repository from which
       <command>svnsync</command> pulls revisions.  The mirror
