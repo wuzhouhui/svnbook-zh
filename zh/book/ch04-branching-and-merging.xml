@@ -6257,7 +6257,6 @@ A    newdirectory/newfile
         customized version (that is, the actual vendor branch) of that
         library which is used by your project, and any new version of
         the vendor's library to which you may be hoping to upgrade.
-        TODO
         Managing the vendor branch (which should live within your
         source code repository per our definition of the thing), then,
         essentially boils down to performing merge operations (in the
@@ -6269,7 +6268,8 @@ A    newdirectory/newfile
       <para>维护第三方函数库的定制化修改会牵涉到 3 个数据源: 最新版的定制化
         修改所基于的第三方函数库的版本, 项目所使用的定制化版本 (即实际上的
         供方分支), 以及第三方函数库的新版本. 于是, 管理供方分支 (供方分支应
-        存放在用户自己的代码仓库中) 本质上可以归结为
+        存放在用户自己的代码仓库中, 包含了前面提到的 3 个数据源)
+        本质上可以归结为
         执行合并操作 (指的是一般意义上的合并), 但是其他开发团队可能会对其他
         数据源&mdash;第三方函数库代码的全新版本&mdash;采取不同的策略, 所以说
         同样存在几种不同的方法去执行合并操作.</para>
