@@ -3603,7 +3603,6 @@ Node-path: spreadsheet/Makefile
         filtered dump data stream.  But because the Subversion
         repository dump format shows only what was changed in each
         revision, the contents of the copy source might not be
-        ### TODO
         readily available.  If you suspect that you have any copies
         of this sort in your repository, you might want to rethink
         your set of included/excluded paths, perhaps including the
@@ -3618,8 +3617,8 @@ Node-path: spreadsheet/Makefile
         满足的, <command>svndumpfilter</command> 仍然需要显示新路径的添加
         &mdash;包含了通过复制而创建的文件的所有内容&mdash;但并不把新路径的添加
         表示成某个源路径的复制, 因为这个源路径在已过滤的转储数据中并不存在.
-        但是因为 Subversion 的转储格式只会显示每个版本号中发生变化的内容,
-        而源数据可能没那么容易做到随时可用. 如果管理员觉得在仓库中存在这种
+        但是由于 Subversion 的转储格式只会显示每个版本号中发生变化的内容,
+        因此被复制的数据源可能不是现成的. 如果管理员觉得在仓库中存在这种
         类型的复制, 那就要重新考虑被包含或排除的路径, 或许应该包含在复制操作
         中充当数据源的路径.</para>
 

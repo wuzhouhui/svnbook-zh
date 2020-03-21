@@ -7086,7 +7086,6 @@ $
       the <command>svn update</command> and <command>svn
       merge</command> operations.  Unfortunately, <command>svn
       merge</command> has a harder time of it precisely because of the
-    TODO
       fact that, for every way in which <command>svn update</command>
       is a special-cased, simplified kind of generic merge operation,
       a true Subversion merge is neither special-cased nor simplified.
@@ -7110,8 +7109,10 @@ $
       更新与合并之间的相似性过于惊讶, Subversion 短处最集中的地方&mdash;也就是
       对文件和目录重命名的处理, 以及目录冲突的处理&mdash;都会给 <command>svn
         update</command> 和 <command>svn merge</command> 造成麻烦. 不幸的是
-      <command>svn merge</command> 的麻烦更大, 一个真正的合并操作既不针对特殊
-      情况, 也不简单. 由于这个原因, 合并操作执行起来比更新更慢, 还要求显式的跟
+      <command>svn merge</command> 的麻烦更大, 虽然 <command>svn
+        update</command> 可以看成是 <command>svn merge</command> 的简化形式和
+      特例, 但一个真正的合并操作既不针对特例, 也不简单.
+      由于这个原因, 合并操作执行起来比更新更慢, 还要求显式的跟
       踪 (通过本章讨论过的属性 <literal>svn:mergeinfo</literal>) 和历史分析计
       算, 而且出错的机会也更多.</para>
 

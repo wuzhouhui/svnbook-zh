@@ -619,7 +619,9 @@ $
                   ### TODO
       <refpurpose>Deltify changed paths in a revision range.</refpurpose>
       -->
-      <refpurpose>在一个版本号范围内, 对修改过的路径执行 deltify.</refpurpose>
+      <refpurpose>在一个版本号范围内, 对修改过的路径执行 deltify
+        <footnote><para>还没想到合适的中文翻译 -- 译者</para></footnote>.
+      </refpurpose>
     </refnamediv>
 
     <refsynopsisdiv>

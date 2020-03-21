@@ -755,13 +755,12 @@ $
         <listitem>
       <!--
           <para>Tells Subversion to ignore ancestry when calculating
-                         ### TODO
             differences (rely on path contents alone).  Also disables
             <xref linkend="svn.branchmerge.basicmerging.mergetracking"/>
             when used with the <command>svn merge</command> subcommand.
         </para>
       -->
-        <para>告诉 Subversion 在计算差异时忽略祖先 (仅依赖路径内容), 对
+        <para>告诉 Subversion 在计算差异时忽略祖先 (仅依赖路径上的内容), 对
           <command>svn merge</command> 而言, 该选项还会禁止
           <xref linkend="svn.branchmerge.basicmerging.mergetracking"/>.
         </para>
