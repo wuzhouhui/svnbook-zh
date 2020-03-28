@@ -8097,7 +8097,6 @@ $ svn status
         directories.  With no arguments, it prints only locally
         modified items (no repository access).  With
         <option>- -show-updates</option> (<option>-u</option>), it
-                                  ### TODO
         adds working revision and server out-of-date information.
         With <option>- -verbose</option> (<option>-v</option>), it
         prints full revision information on every item.
@@ -8107,8 +8106,9 @@ $ svn status
       -->
       <para>打印工作副本中文件或目录的状态. 如果没有指定任何选项, <command>svn
           status</command> 将只打印本地已修改的项目 (不会访问仓库). 如果添加了
-        <option>--show-updates</option> (<option>-u</option>), 命令除了会打印
-        工作副本内的版本号外, 还会打印服务器上最新的信息. 如果添加了选项
+        选项 <option>--show-updates</option> (<option>-u</option>), 命令还会
+        打印与服务器上的最新数据相比, 工作副本中已过时的项目及其版本号.
+        如果添加了选项
         <option>--verbose</option> (<option>-v</option>), 它将打印每一项的
         完整的版本号信息. 如果添加了选项 <option>--quiet</option>
         (<option>-q</option>), 它就只打印与本地已修改项目有关的总结信息.</para>

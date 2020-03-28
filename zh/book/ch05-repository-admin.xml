@@ -459,7 +459,6 @@ conf/  db/  format  hooks/  locks/  README.txt
         their project lately, the youngest revision number for the
         repository keeps climbing because other projects are actively
         adding new revisions.<footnote><para>Whether founded in
-            ### TODO
         ignorance or in poorly considered concepts about how to derive
         legitimate software development metrics, global revision
         numbers are a silly thing to fear,
@@ -473,7 +472,11 @@ conf/  db/  format  hooks/  locks/  README.txt
     仓库只和单独的一组人有关系. 另外还要注意 Subversion 版本号的作用域是整个
     仓库, 虽然这些数字并没有任何特殊的魔力, 但还是有人不喜欢看到这样一种情况:
     虽然他们的项目最近都没有提交什么修改, 但是由于其他项目的活动, 他们自己的
-    项目的版本号仍然在不断增长.</para>
+    项目的版本号仍然在不断增长.<footnote><para>在考虑如何实现合理的软件开发
+        标准时, 无论是完全没有重视, 还是考虑不周, 全局的版本号数字都不应该
+        成为需要担心的事情, 而且在决定如何管理项目与仓库时, 也
+        <emphasis>没必要</emphasis> 去顾虑虑全局版本号.</para></footnote>
+  </para>
 
       <!--
       <para>A middle-ground approach can be taken, too.  For example,

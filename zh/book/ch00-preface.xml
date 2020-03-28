@@ -319,7 +319,7 @@
         data stores.  Collaboration still occurs, but is accomplished
         by trading collections of changes made to versioned items
         directly between users' local data stores, not via a
-        centralized master data store.  TODO: In fact, any semblance of a
+        centralized master data store.  In fact, any semblance of a
         canonical <quote>master</quote> source of a project's
         versioned data is by convention only, a status imputed by
         the various collaborators on that project.</para>
