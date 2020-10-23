@@ -110,10 +110,10 @@
           <listitem>
       <!--
             <para>Uses the last-changed revisions rather than the
-                      ### TODO
             current (i.e., highest locally available) revisions.</para>
       -->
-          <para>使用最近一次产生修改的版本号, 而不是当前版本号.</para>
+          <para>使用最近一次产生修改的版本号, 而不是当前版本号 (当前版本号是
+            本地可获得的, 值最大的版本号).</para>
           </listitem>
         </varlistentry>
   
