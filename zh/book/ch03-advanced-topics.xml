@@ -5950,7 +5950,6 @@ $
       in <xref linkend="svn.basic.vsn-models.copy-merge" />, most of
       these types of problems go away entirely where perfect
       communication between Harry and Sally
-      TODO
       exists.<footnote><para>Communication wouldn't have been such bad
       medicine for Harry and Sally's Hollywood namesakes, either, for
       that matter.</para></footnote> But as one's version control
