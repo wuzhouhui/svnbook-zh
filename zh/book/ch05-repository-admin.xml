@@ -4929,7 +4929,6 @@ $ svnadmin hotcopy /var/svn/repos /var/svn/repos-backup
         good is a spare tire that has a hole in it?  While all of this
         might not save your hardware from the iron fist of
         Fate,<footnote><para>You know&mdash;the collective term for
-            ### TODO
         all of her <quote>fickle fingers.</quote></para></footnote> it
         should certainly help you recover from those trying
         times.</para>
@@ -4941,8 +4940,9 @@ $ svnadmin hotcopy /var/svn/repos /var/svn/repos-backup
         志愿者使用 <command>svnsync</command> 维护多份仓库镜像. 你的最终
         方案可能与此类似, 但应该根据你的具体需求维持好易用性与安全性之间的
         平衡. 无论你怎么做, 应该偶尔检查备份是否可用&mdash;如果连备胎都有漏洞,
-        那还怎么用? 虽然这一切都无法避免硬件遭受命运的捶打, 但备份确实能够
-        帮助你从灾难中恢复.</para>
+        那还怎么用? 虽然这一切都无法避免硬件遭受命运的捶打<footnote><para>
+            你知道的&mdash;这只是对各种 <quote>变化莫测的问题</quote> 的统称.
+        </para></footnote>, 但备份确实能够帮助你从灾难中恢复.</para>
 
     </sect2>
 
