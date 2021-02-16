@@ -316,7 +316,10 @@ $
 
     <!-- =============================================================== -->
     <refsect1>
+      <!--
       <title>Description</title>
+      -->
+      <title>描述</title>
 
       <!--
       <para>Can be used to include nodes that begin with one or

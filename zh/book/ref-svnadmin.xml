@@ -1445,7 +1445,10 @@ $ svnadmin load --parent-dir new/subdir/for/project \
 
     <!-- =============================================================== -->
     <refsect1>
+      <!--
       <title>Options</title>
+      -->
+      <title>选项</title>
       <informalexample>
         <screen>
 <xref linkend="svn.ref.svnadmin.sw.bypass_hooks" />
@@ -1479,7 +1482,10 @@ $ svnadmin load --parent-dir new/subdir/for/project \
 
     <!-- =============================================================== -->
     <refsect1>
+      <!--
       <title>Description</title>
+      -->
+      <title>描述</title>
 
       <!--
       <para>Print descriptions of all locks in
