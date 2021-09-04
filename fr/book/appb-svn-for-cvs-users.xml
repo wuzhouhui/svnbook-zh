@@ -101,15 +101,15 @@
     <para>Similarly, in CVS, a tag or branch is an annotation on the
       file or on the version information for that individual file,
       whereas in Subversion, a tag or branch is a copy of an entire
-      tree (by convention, into the <filename>/branches</filename>
-      or <filename>/tags</filename> directories that appear at the top
-      level of the repository, beside <filename>/trunk</filename>).  In
+      tree (by convention, into the <filename>branches/</filename>
+      or <filename>tags/</filename> directories that appear at the top
+      level of the repository, beside <filename>trunk/</filename>).  In
       the repository as a whole, many versions of each file may be
       visible: the latest version on each branch, every tagged
       version, and of course the latest version on the trunk
       itself.  So, to refine the terms even further, one would often
       say <quote><filename>foo.c</filename> as it appears in
-      <filename>/branches/REL1</filename> in revision
+      <filename>branches/REL1</filename> in revision
       5.</quote></para>
 -->
     <para>De la même manière, dans CVS, une étiquette et une branche
@@ -117,16 +117,16 @@
       version de ce fichier. En revanche, dans Subversion, une branche
       ou une étiquette sont des copies complètes d'une arborescence
       (situées respectivement par convention dans les répertoires
-      <filename>/branches</filename> et <filename>/tags</filename> qui
+      <filename>branches/</filename> et <filename>tags/</filename> qui
       se trouvent à la racine de l'arborescence du dépôt, à côté de
-      <filename>/trunk</filename>). Dans l'ensemble du dépôt, plusieurs
+      <filename>trunk/</filename>). Dans l'ensemble du dépôt, plusieurs
       versions de chaque fichier peuvent être visibles&nbsp;: la
       dernière version à l'intérieur de chaque branche, la version au
       sein de chaque étiquette et, bien sûr, la dernière version dans le
       tronc lui-même (sous <filename>/trunk</filename>). Ainsi, pour
       être vraiment précis, il convient de dire
       <quote><filename>machin.c</filename> tel qu'il était dans
-      <filename>/branches/IDEE1</filename> à la révision
+      <filename>branches/IDÉE1</filename> à la révision
       5</quote>.</para>
 
 <!--
@@ -713,7 +713,7 @@ M            1050   truc/bidule.c
       travail locale.</para>
 
 <!--
-    <para>To set or get a property name, use the <command>svn
+    <para>To set or get a property value, use the <command>svn
       propset</command> and <command>svn propget</command>
       subcommands.  To list all properties on an object, use
       <command>svn proplist</command>.</para>
@@ -1034,7 +1034,7 @@ M            1050   truc/bidule.c
 
 <!--
     <para>The most popular (and mature) conversion tool is
-      cvs2svn (<ulink url="http://cvs2svn.tigris.org/"/>), a Python
+      cvs2svn (<ulink url="https://github.com/mhagger/cvs2svn/"/>), a Python
       program originally created by members of Subversion's own
       development community.  This tool is meant to run exactly once:
       it scans your CVS repository multiple times and attempts to

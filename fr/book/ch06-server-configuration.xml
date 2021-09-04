@@ -4082,7 +4082,7 @@ LoadModule dav_svn_module     modules/mod_dav_svn.so
 
       <informalexample>
         <programlisting>
-LoadModule dav_svn_module     C:/Subversion/lib/mod_dav_svn.so
+LoadModule dav_svn_module     C:/Subversion/libexec/mod_dav_svn.so
 </programlisting>
       </informalexample>
 
@@ -7705,7 +7705,7 @@ svnsync copy-revprops http://esclave3.exemple.com/svn-proxy-sync \
             of the mechanisms that one might employ to accomplish this
             replication fall short in one way or
             another<footnote><para><ulink
-            url="http://subversion.tigris.org/issues/show_bug.cgi?id=3457"
+            url="https://subversion.apache.org/issue3457"
             /> tracks these problems.</para></footnote>.  Many teams
             don't use Subversion's locking features at all, so this
             may be a nonissue for you.  Sadly, for those teams which
@@ -7726,7 +7726,7 @@ svnsync copy-revprops http://esclave3.exemple.com/svn-proxy-sync \
             sont utilisés pour effectuer cette réplication sont
             confrontés à un problème à un moment ou à un autre<footnote>
 				<para><ulink
-            url="http://subversion.tigris.org/issues/show_bug.cgi?id=3457"
+            url="https://subversion.apache.org/issue3457"
             /> suit ces problèmes.</para>
 			</footnote>. De nombreuses équipes n'utilisent pas du tout
 			les fonctionnalités de verrouillage de Subversion, il s'agit

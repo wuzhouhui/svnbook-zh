@@ -836,13 +836,13 @@ $ rm `svnadmin list-unused-dblogs /var/svn/dépôt`
       <para>For more information on the Berkeley DB tool chain,
         visit the documentation section of the Berkeley DB section
         of Oracle's web site, located at <ulink
-        url="http://www.oracle.com/technology/documentation/berkeley-db/db/"
+        url="https://docs.oracle.com/cd/E17275_01/html/api_reference/C/utilities.html"/>.
         />.</para>
 -->
       <para>Pour davantage d'informations sur la suite d'outils Berkeley DB,
         consultez la documentation en ligne sur le site Internet d'Oracle,
         dans la section Berkeley DB&nbsp;: <ulink
-        url="http://www.oracle.com/technology/documentation/berkeley-db/db/"
+        url="https://docs.oracle.com/cd/E17275_01/html/api_reference/C/utilities.html"/>.
         /> (ce site est en anglais).</para>
 
     </sect2>

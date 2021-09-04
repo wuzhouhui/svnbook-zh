@@ -132,6 +132,9 @@ II. COMPILING THE DOCS
 
      Poof!  You now have PNG support.
 
+   * If you want to customize the output, for example change the paper
+     type, check the FO_XSLTPROC_OPTS variable in en/Makefile.
+     
    * From this directory (en, or another language directory), do 
 
         $ make all-pdf

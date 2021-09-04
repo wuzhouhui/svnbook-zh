@@ -1387,8 +1387,8 @@ $
 <!--
         <para>The syntax of the <filename>hooks-env</filename> file is
           pretty straightforward: each section name is the name of a
-          hook script (such as <literal>pre-commit</literal>
-          or <literal>post-revprop-change</literal>), and the
+          hook script (such as <literal>[pre-commit]</literal>
+          or <literal>[post-revprop-change]</literal>), and the
           configuration items inside that section are treated as
           mappings of environment variable names to desired values.
           Additionally, there is a
@@ -1403,8 +1403,8 @@ $
         <para>La syntaxe du fichier <filename>hooks-env</filename> est
           très simple&nbsp;: chaque nom de section correspond à la
           procédure automatique à laquelle la section s'applique (tels
-          que <literal>pre-commit</literal> ou
-          <literal>post-revprop-change</literal>) et les éléments à
+          que <literal>[pre-commit]</literal> ou
+          <literal>[post-revprop-change]</literal>) et les éléments à
           l'intérieur des sections sont les variables d'environnement
           dont on souhaite définir les valeurs. En plus, il existe une
           section générale <literal>[default]</literal>, qui permet
