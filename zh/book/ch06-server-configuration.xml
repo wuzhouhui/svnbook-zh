@@ -2176,8 +2176,9 @@ $ saslpasswd2 -c -f /etc/my_sasldb -u realm username
           encryption, you can set two values in your repository's
           <filename>svnserve.conf</filename> file:</para>
       -->
-        <para>如果特定的认证机制支持, 那么 SASL 也能实现数据加密. 内建的
-          CRAM-MD5 不支持加密, 但 DIGEST-MD5 支持, SRP 实际上会用到 OpenSSL
+        <para>如果特定的机制支持, 那么 SASL 也能实现数据加密. 内建的
+          CRAM-MD5 不支持加密, 但 DIGEST-MD5 支持, 有些机制 (例如 SRP)
+          还会用到 OpenSSL
           函数库. 为了开启或禁止加密的不同级别, 你需要在仓库的
           <filename>svnserve.conf</filename> 里定义两个值:</para>
 
