@@ -591,7 +591,7 @@
                   more network turnarounds.</para>
       -->
                 <para>比 <command>svnserve</command> 慢得多, 因为 HTTP 是一
-                  种无状态的协议, 需要更多的网络转换.</para>
+                  种无状态的协议, 需要更多的网络周转.</para>
               </listitem>
               <listitem>
       <!--
