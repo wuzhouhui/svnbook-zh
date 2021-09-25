@@ -891,7 +891,7 @@ Status against revision:   1066
 
       <!--
     <para>The most popular (and mature) conversion tool is
-      cvs2svn (<ulink url="http://cvs2svn.tigris.org/"/>), a Python
+      cvs2svn (<ulink url="https://github.com/mhagger/cvs2svn/"/>), a Python
       program originally created by members of Subversion's own
       development community.  This tool is meant to run exactly once:
       it scans your CVS repository multiple times and attempts to
